@@ -138,7 +138,11 @@ simplesecureapi/
 
 📌 **Example Login Request**
 
-The examples can be seen in the video inserted in the moodle asignment
+The examples can be seen in the video inserted here:
+
+https://github.com/user-attachments/assets/555f46bd-d18d-42e1-acce-4f72d00974ed
+
+
 
 
 ---
