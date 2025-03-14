@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure App - Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido a la Aplicación Segura</h1>
+
+        <div id="auth">
+            <h2>Iniciar sesión</h2>
+            <input type="text" id="username" placeholder="Usuario">
+            <input type="password" id="password" placeholder="Contraseña">
+            <button onclick="login()">Iniciar sesión</button>
+            <p>¿No tiene una cuenta? <a href="register.html">Crear una</a></p>
+        </div>
+
+        <div id="secured-content" style="display: none;">
+            <h2>Zona Segura</h2>
+            <button onclick="getGreeting()">Obtener Saludo</button>
+            <button onclick="getServerTime()">Obtener Hora del Servidor</button>
+            <p id="response"></p>
+        </div>
+    </div>
+
+    <script src="app.js?v=1.1"></script>
+</body>
+</html>
